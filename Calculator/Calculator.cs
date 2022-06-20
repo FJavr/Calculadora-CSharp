@@ -17,9 +17,11 @@ namespace Calculator
             InitializeComponent();
         }
 
+        
+
         private void readValue(String value)
         {
-            resultBox.Text = (resultBox.Text.Length == 0)
+            resultBox.Text = (resultBox.Text.Length == 0 )
                 ? resultBox.Text = value
                 : resultBox.Text += value;
         }
@@ -52,8 +54,6 @@ namespace Calculator
         }
 
         ///Functions above
-
-
 
         private void button0_Click(object sender, EventArgs e)
         {
@@ -188,7 +188,7 @@ namespace Calculator
         {
             resultBox.Text = (resultBox.Text.Length > 0)
                 ? resultBox.Text = resultBox.Text.Remove(resultBox.Text.Length - 1, 1)
-                : null;
+                : null;          
         }
 
         private void equalTo_Click(object sender, EventArgs e)
@@ -202,6 +202,7 @@ namespace Calculator
             {
                 errorMsj("Invalid Format");
             }
+
         }
 
     }

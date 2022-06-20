@@ -34,3 +34,21 @@ C:\Users\Francico J. Medina\Documents\Workspace\C#\Prog II\Calculator\Calculator
 C:\Users\Francico J. Medina\Documents\Workspace\C#\Prog II\Calculator\Calculator\obj\Debug\net5.0-windows\ref\Calculator.dll
 C:\Users\Francico J. Medina\Documents\Workspace\C#\Prog II\Calculator\Calculator\obj\Debug\net5.0-windows\Calculator.pdb
 C:\Users\Francico J. Medina\Documents\Workspace\C#\Prog II\Calculator\Calculator\obj\Debug\net5.0-windows\Calculator.genruntimeconfig.cache
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\bin\Debug\net5.0-windows\Calculator.exe
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\bin\Debug\net5.0-windows\Calculator.deps.json
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\bin\Debug\net5.0-windows\Calculator.runtimeconfig.json
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\bin\Debug\net5.0-windows\Calculator.runtimeconfig.dev.json
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\bin\Debug\net5.0-windows\Calculator.dll
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\bin\Debug\net5.0-windows\Calculator.pdb
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.csproj.AssemblyReference.cache
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.Calculator.resources
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.csproj.GenerateResource.cache
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.AssemblyInfoInputs.cache
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.AssemblyInfo.cs
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.dll
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\refint\Calculator.dll
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.pdb
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.genruntimeconfig.cache
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\ref\Calculator.dll
