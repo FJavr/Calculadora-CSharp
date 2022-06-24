@@ -52,3 +52,4 @@ C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C
 C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.pdb
 C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.genruntimeconfig.cache
 C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\ref\Calculator.dll
+C:\Users\Francico J. Medina\OneDrive - itla.edu.do\ITLA\7mo Cuatrimestre, 2022-C-2\Programación II, gr 1\w4\Calculadora-CSharp\Calculator\obj\Debug\net5.0-windows\Calculator.Properties.Resources.resources

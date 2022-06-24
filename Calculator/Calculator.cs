@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Linq;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Calculator
@@ -12,13 +13,13 @@ namespace Calculator
             InitializeComponent();
         }
 
-        
-
-        private void readValue(String value)
+        private void readValue(object sender, EventArgs e)
         {
-            resultBox.Text = (resultBox.Text.Length == 0 )
-                ? resultBox.Text = value
-                : resultBox.Text += value;
+            var buttonValue = ((Button)sender).Text;
+
+            resultBox.Text = (resultBox.Text.Length == 0 || resultBox.Text == "0")
+                ? resultBox.Text = buttonValue
+                : resultBox.Text += buttonValue;
         }
 
         private void errorMsj(String msj)
@@ -28,17 +29,19 @@ namespace Calculator
 
         private void changeSign(Char v1, Char v2, Char v3, Char v4)
         {
+            char lastChar = resultBox.Text.Last();
+
             if (resultBox.Text.Length == 0)
             {
                 return;
             }
+            else if( resultBox.Text.Length > 0 && (lastChar == v1 || lastChar == v2 || lastChar == v3) )
+            {
+                resultBox.Text = resultBox.Text.Replace(lastChar, v4);
+            }
             else
             {
-                char lastChar = resultBox.Text.Last();
-
-                resultBox.Text = (lastChar == v1 || lastChar == v2 || lastChar == v3)
-                    ? resultBox.Text.Replace(lastChar, v4)
-                    : resultBox.Text += v4;
+                resultBox.Text += v4;
             }
         }
 
@@ -50,101 +53,15 @@ namespace Calculator
 
         ///Functions above
 
-        private void button0_Click(object sender, EventArgs e)
-        {
-            readValue("0");
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            readValue("1");
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            readValue("2");
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            readValue("3");
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            readValue("4");
-        }
-
-        private void button5_Click_1(object sender, EventArgs e)
-        {
-            readValue("5");
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            readValue("6");
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            readValue("7");
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            readValue("8");
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            readValue("9");
-        }
-
-        private void openParentheses_Click(object sender, EventArgs e)
-        {
-            readValue("(");
-        }
-
-        private void closedParentheses_Click(object sender, EventArgs e)
-        {
-            readValue(")");
-        }
-
-        private void dotButton_Click(object sender, EventArgs e)
-        {
-            readValue(".");
-        }
-
-        private void subtractButton_Click(object sender, EventArgs e)
-        {
-            readValue("-");
-        }
-
-        private void addButton_Click(object sender, EventArgs e)
-        {
-            changeSign('*', '/', '-', '+');
-        }
-
-        private void divideButton_Click(object sender, EventArgs e)
-        {
-            changeSign('*','+','-','/');
-        }
-
-        private void multiplyButton_Click(object sender, EventArgs e)
-        {
-            changeSign('/', '+', '-', '*');
-        }
-
         private void percentageButton_Click(object sender, EventArgs e)
         {
             try
             {
-                double result = Convert.ToDouble(resultBox.Text) / 100;
-                resultBox.Text = result.ToString();
+                resultBox.Text = (Convert.ToDouble(resultBox.Text) / 100).ToString();
             }
             catch (Exception)
             {
-                errorMsj("Invalid Format");
+                errorMsj("Error");
             }
         }
 
@@ -152,12 +69,11 @@ namespace Calculator
         {
             try
             {
-                double result = Math.Sqrt(Convert.ToDouble(resultBox.Text));
-                resultBox.Text = result.ToString();
+                resultBox.Text = Math.Sqrt(Convert.ToDouble(resultBox.Text)).ToString();
             }
             catch (Exception)
             {
-                errorMsj("Invalid Format");
+                errorMsj("Error");
             }
         }
 
@@ -165,12 +81,11 @@ namespace Calculator
         {
             try
             {
-                double result = Math.Pow(Convert.ToDouble(resultBox.Text), 2);
-                resultBox.Text = result.ToString();
+                resultBox.Text = Math.Pow(Convert.ToDouble(resultBox.Text), 2).ToString();
             }
             catch (Exception)
             {
-                errorMsj("Invalid Format");
+                errorMsj("Error");
             }
         }
 
@@ -183,22 +98,36 @@ namespace Calculator
         {
             resultBox.Text = (resultBox.Text.Length > 0)
                 ? resultBox.Text = resultBox.Text.Remove(resultBox.Text.Length - 1, 1)
-                : null;          
+                : null;
         }
 
         private void equalTo_Click(object sender, EventArgs e)
         {
             try
             {
-                double iqualTo = showResult(resultBox.Text);
-                resultBox.Text = iqualTo.ToString();
+                resultBox.Text = showResult(resultBox.Text).ToString();
             }
             catch (Exception)
             {
-                errorMsj("Invalid Format");
+                errorMsj("Error");
             }
 
         }
 
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            changeSign('/', '*', '-', '+');
+
+        }
+
+        private void multiplyButton_Click(object sender, EventArgs e)
+        {
+            changeSign('/', '-', '+', '*');
+        }
+
+        private void divideButton_Click(object sender, EventArgs e)
+        {
+            changeSign('*', '-', '+', '/');
+        }
     }
 }
