@@ -71,7 +71,7 @@ namespace Calculator
             {
                 resultBox.Text = Math.Sqrt(Convert.ToDouble(resultBox.Text)).ToString();
             }
-            catch (Exception)
+            catch (Exception )
             {
                 errorMsj("Error");
             }
